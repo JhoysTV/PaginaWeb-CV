@@ -5707,3 +5707,67 @@ body.cv-refresh {
   background: rgba(223, 244, 234, 0.9);
   color: var(--cv-forest-deep);
 }
+.cv-certificate-card {
+  height: 100%;
+  border: 0;
+  border-radius: 24px;
+  box-shadow: var(--cv-shadow);
+  overflow: hidden;
+}
+
+.cv-certificate-card .card-body {
+  padding: 30px;
+}
+
+.cv-certificate-icon {
+  width: 62px;
+  height: 62px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  margin-bottom: 18px;
+  background: linear-gradient(135deg, var(--cv-forest), var(--cv-gold));
+  color: #fff;
+  font-size: 1.35rem;
+}
+
+.cv-certificate-type {
+  margin-bottom: 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cv-forest);
+}
+
+.cv-certificate-card p {
+  color: var(--cv-muted);
+}
+
+.cv-certificate-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.cv-certificate-actions a {
+  color: var(--cv-forest);
+  font-weight: 700;
+}
+.cv-certificate-group + .cv-certificate-group {
+  margin-top: 34px;
+}
+
+.cv-certificate-group-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+
+.cv-certificate-group-head h3 {
+  margin-bottom: 0;
+}
